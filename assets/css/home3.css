@@ -1,0 +1,22 @@
+.step1 {
+  text-decoration: none;
+  font-size: large;
+}
+.step1 a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+.step1 img {
+  margin-top: -100px;
+}
+.step2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.step3 a.a-2 {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}

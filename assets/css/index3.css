@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    padding: 0 5%;
+}
+nav{
+    margin-top: 4%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    background: blueviolet;
+    padding: 10px 20px;
+    margin: 0 20px 0 0;
+    border-radius: 7px;
+}
+.two-box{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.first-box p{
+    margin-bottom: 35px !important;
+    text-align: justify;
+}
+.first-box{
+    background: greenyellow;
+    padding: 20px;
+    height: 220px;
+    width: 35%;
+}
+.first-box a{
+    color: black;
+    background: white;
+    padding: 5px 10px;
+}
+.sec-box p{
+    margin-bottom: 35px;
+    text-align: justify;
+}
+.sec-box{
+    background: coral;
+    padding: 20px;
+    height: 220px;
+    width: 35%;
+}
+.sec-box a{
+    color: black;
+    background: white;
+    padding: 5px 10px;
+}
+.long-box{
+    background: pink;
+    padding: 10px 30px;
+    box-shadow: 5px 10px;
+}
+.long-box h2{
+    font-size: 32px;
+}
+.long-box ul{
+    padding-left: 0 !important;
+}
+.long-box ul li{
+    list-style: none;
+    display: inline-block;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+.like-comment{
+    display: flex;
+}
+.like-comment .likes p{
+    margin-right: 20px;
+}
+.tri-img {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.tri-img img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+footer{
+background: pink;
+padding: 20px;
+color: white;
+text-align: center;
+margin-top: 20px;
+}

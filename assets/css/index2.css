@@ -1,0 +1,97 @@
+/* nav a {
+    text-decoration: none;
+    color: chartreuse;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background: pink;
+    border: 10px solid red;
+}
+.box2{
+    height: 300vh;
+    width: 300vw;
+    background: yellow;
+    border: 5px solid #A0D8B3;
+    
+} */
+
+.box-cat {
+  box-sizing: content-box;
+}
+
+.container {
+  padding: 0 4%;
+}
+
+h1 {
+  font-family: "Mochiy Pop One", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.kategori {
+  text-align: center;
+}
+.kategori a {
+  color: white;
+  background: gray;
+  padding: 5px 20px;
+  margin: 20px;
+  border-radius: 7px;
+  text-decoration: none;
+  /* font-size: 20px; */
+}
+.box {
+  height: 400px;
+  width: 200px;
+  background: darkgray;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 7px;
+  padding: 10px;
+  overflow: hidden;
+}
+.img-cont img {
+  height: 188px;
+  width: 190px;
+  object-fit: cover;
+  border-radius: 7px;
+  display: inline-block;
+  margin: 5px 4px;
+  /* position: ; */
+  /* float: left; */
+  transition: 0.2s ease-in;
+  transition: transform 0.4 ease-in-out, 0.2s opacity 0.6s ease-in-out;
+  opacity: 0.7;
+}
+
+.img-cont img:hover {
+  transform: scale(1.2) rotate(20deg);
+  opacity: 1;
+}
+.img-cont {
+  overflow: hidden;
+}
+
+.box h4 {
+  font-size: 23px;
+  margin-top: 5px;
+}
+.box p {
+  margin-top: -20px;
+}
+.box-cat {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+footer h6 {
+  padding: 20px;
+  margin-bottom: 0 !important;
+}

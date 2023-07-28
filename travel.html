@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/travel.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Travel</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Travel</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX -->
+        <input type="checkbox" />
+        <label for="checkbox_toggle" class="bars-resp">&#9776</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </div>
+      </ul>
+      <!-- NAVIGATION USER -->
+      <div class="user">
+        <i class="fa-solid fa-user"></i>
+        <a href="">Login</a>
+      </div>
+    </nav>
+    <!-- START HEADER -->
+    <header>
+        <div class="header-content">
+            <div class="overlay"></div>
+            <video src="assets/vid 5.mp4"muted autoplay loop type="mp4"></video>
+            <div class="header-text">
+                <div class="container">
+                    <h1>Embark on Extraordinary Adventures: Unveiling the Ultimate Travel Destinations!</h1>
+                <div class="search-container">
+                    <input type="search" placeholder="search...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <!-- SECTION SERVICES -->
+    <!-- <section id="about" class="about-travel">
+        <div class="container">
+            <div class="about-1">
+                <div>
+                    <img src="assets/travel 1.jpg" alt="">
+                    
+                </div>
+                <div>
+                    <h2>Explore Beau Destinations</h2>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section id="about" class="about-travel">
+        <div class="container">
+            <div class="about-1">
+                <div>
+                    <img src="/assets/travel 2.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Explore Beau Destinations</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- SCRIPT SRCOLL NAVBAR BACKGROUND  COLOR -->
+    <script>
+        $(document).ready(function (){
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                if(scroll > 300) {
+                    $(".navbar").css("background", "teal");
+                } else{
+                    $(".navbar").css("background", "0, 0");
+                }
+            })
+        })
+    </script>
+  </body>
+</html>
